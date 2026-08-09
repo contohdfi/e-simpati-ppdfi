@@ -1,5 +1,5 @@
 // GANTI URL INI DENGAN URL WEB APP GOOGLE APPS SCRIPT YANG BARU DIDEPLOY
-const scriptURL = 'MASUKKAN_URL_APPS_SCRIPT_DISINI';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbx_L5t1ioMU_0Rua_Xp-U72SuNGrMj6A3MNrQxeUsgEyglFTl83-fyJy5ADmClC33XjJg/exec';
 
 const AppState = {
   data: null,
