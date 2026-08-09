@@ -9,6 +9,7 @@ body {
   color: var(--text-color);
   overflow-x: hidden;
 }
+
 /* Sidebar */
 #sidebar {
   min-width: 250px;
@@ -34,7 +35,15 @@ body {
   transition: transform 0.2s;
 }
 .card:hover { transform: translateY(-5px); }
-.card-stats { background: linear-gradient(135deg, var(--primary-color), #147a2e); color: white; }
+
+/* --- PERBAIKAN WARNA KARTU STATISTIK DI SINI --- */
+.card-stats { 
+  background: linear-gradient(135deg, var(--primary-color), #147a2e) !important; 
+  color: white !important; 
+}
+.card-stats p, .card-stats h3 { 
+  color: white !important; 
+}
 
 /* Utilities */
 .content-wrapper { width: 100%; padding: 20px; }
