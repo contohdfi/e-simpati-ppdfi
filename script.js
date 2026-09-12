@@ -69,7 +69,7 @@ function updateGreeting() {
   else if (hour >= 15 && hour < 18) ucapan = "Sore";
   
   const headerTitle = document.querySelector('.content-wrapper h4');
-  if(headerTitle) headerTitle.innerHTML = `Ahlan Wa Sahlan! Selamat ${ucapan} <strong>Miss Haury & Ustadz Anam 🙌🏻</strong>`;
+  if(headerTitle) headerTitle.innerHTML = `Ahlan Wa Sahlan! Selamat ${ucapan} <strong>Miss Haury & Ustadz Bintang 🙌🏻</strong>`;
 }
 
 function toggleSidebar() {
